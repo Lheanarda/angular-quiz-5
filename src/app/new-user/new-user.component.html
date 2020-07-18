@@ -1,0 +1,7 @@
+<h3>Create New User</h3>
+<hr>
+<div class="form-group">
+    <label for="name">Name</label>
+    <input class="form-control" type="text" id="name" placeholder="Enter name" #nameInput>
+</div>
+<button class="btn btn-primary" (click)="onUserCreate(nameInput)">Create</button>
